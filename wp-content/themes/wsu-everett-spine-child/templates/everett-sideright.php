@@ -12,7 +12,7 @@
 				<div class="column one">
 					<div class="fill-width"><div class="main_header_graphic">
 							<?php if ( has_post_thumbnail() ) {
-								the_post_thumbnail();
+								the_post_thumbnail( 'header-image' );
 							}
 							?>
 					</div></div>
