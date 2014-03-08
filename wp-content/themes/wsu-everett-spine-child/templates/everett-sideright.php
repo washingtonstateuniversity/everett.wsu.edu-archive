@@ -10,7 +10,12 @@
 			<section class="row single">
 
 				<div class="column one">
-					<div class="fill-width"><div class="main_header_graphic"></div></div>
+					<div class="fill-width"><div class="main_header_graphic">
+							<?php if ( has_post_thumbnail() ) {
+								the_post_thumbnail();
+							}
+							?>
+					</div></div>
 				</div><!--/column-->
 
 			</section>
