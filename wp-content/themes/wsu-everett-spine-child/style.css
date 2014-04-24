@@ -9,3 +9,191 @@
 */
 
 @import url("../spine/style.css");
+
+#jacket {
+	background: url("http://everett.wsu.edu/wp-content/uploads/2014/03/home-banner2.jpg") repeat-x scroll top transparent;
+}
+
+#jacket.size-lt-medium {
+	background: /* below css moves bkgrd img down to compensate for logo/nav moving to top of screen */
+url("http://everett.wsu.edu/wp-content/uploads/2014/03/home-banner2.jpg") repeat-x scroll left 50px transparent;
+}
+
+.page-order-of-the-engineer #jacket,
+.page-order-of-the-engineeer #jacket.size-lt-medium {
+	background: none;
+}
+
+.main-header {
+	background: none;
+	left: 0;
+/*	-webkit-box-shadow: -15px 8px 15px -8px black;
+	-moz-box-shadow: -15px 8px 15px -8px black;
+	box-shadow: -15px 8px 15px -8px black;*/
+}
+
+.home .main-header {
+	height: 132px;
+}
+
+.page .main-header .sub-header-default {
+	display: none;
+}
+
+.page .main-header sub:before {
+	content: attr(data-pagetitle);
+}
+
+h1.article-title {
+	display: none;
+}
+
+#wsu-contact .organization-name {
+	padding-bottom: 0;
+}
+
+section .column-two {
+	padding: 2em 2em 1em;
+}
+
+.home .main_header_graphic img {
+	border-bottom: solid 3px #981e32;
+/*-webkit-box-shadow: -15px 8px 15px -8px black;
+	-moz-box-shadow: -15px 8px 15px -8px black;
+	box-shadow: -15px 8px 15px -8px black;*/
+}
+
+@media only screen
+and (max-width: 872px) and (min-width: 792px) {
+	.home div#jacket div#binder.fluid main.spine-sideright-template section.row div.column div.fill-width div.main_header_graphic img.attachment-header-image {
+		width: 676px;
+		height: 290px;
+	}
+}
+
+.home .site {
+	display: none;
+}
+
+.main-header {
+	width: 100%;
+}
+
+.main-header .header-group {
+	width: auto;
+	padding-bottom: 1em;
+}
+
+.home .header-group {
+	padding-bottom: .375em;
+}
+
+.home .main-header sup {
+	display: none;
+}
+
+img.sidebar_photo {
+	border: solid 1px #d7dadb;
+/*-webkit-box-shadow: -15px 8px 15px -8px black;
+	-moz-box-shadow: -15px 8px 15px -8px black;
+	box-shadow: -15px 8px 15px -8px black;*/
+}
+
+td {
+	padding: 15px;
+}
+
+ul li {
+	list-style: disc outside none;
+}
+
+#wsu-contact div {
+	padding-top: 3px;
+}
+
+table {
+/* IE7 and lower */
+	border-spacing: 0;
+	width: 100%;
+}
+
+.bordered {
+	border: none;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 1px 1px #ccc;
+	-moz-box-shadow: 0 1px 1px #ccc;
+	box-shadow: 0 1px 1px #ccc;
+	margin-bottom: 10px;
+}
+
+.bordered tr:hover, .bordered tr.alt:hover {
+	background: #d7dadb;
+	-o-transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+
+.bordered td, .bordered th {
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	padding: 10px;
+	text-align: left;
+}
+
+.bordered tr.alt {
+	background: #eff0f1;
+}
+
+.bordered th {
+	background-color: #981e32;
+	color: #ffffff;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#7b1828),to(#981e32));
+	background-image: -webkit-linear-gradient(top,#7b1828,#981e32);
+	background-image: -moz-linear-gradient(top,#7b1828,#981e32);
+	background-image: -ms-linear-gradient(top,#7b1828,#981e32);
+	background-image: -o-linear-gradient(top,#7b1828,#981e32);
+	background-image: linear-gradient(top,#7b1828,#981e32);
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+	box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+	border-top: none;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.bordered td:first-child, .bordered th:first-child {
+	border-left: none;
+}
+
+.bordered th:first-child {
+	-moz-border-radius: 6px 0 0;
+	-webkit-border-radius: 6px 0 0 0;
+	border-radius: 6px 0 0 0;
+}
+
+.bordered th:last-child {
+	-moz-border-radius: 0 6px 0 0;
+	-webkit-border-radius: 0 6px 0 0;
+	border-radius: 0 6px 0 0;
+}
+
+.bordered th:only-child {
+	-moz-border-radius: 6px 6px 0 0;
+	-webkit-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0;
+}
+
+.bordered tr:last-child td:first-child {
+	-moz-border-radius: 0 0 0 6px;
+	-webkit-border-radius: 0 0 0 6px;
+	border-radius: 0 0 0 6px;
+}
+
+.bordered tr:last-child td:last-child {
+	-moz-border-radius: 0 0 6px;
+	-webkit-border-radius: 0 0 6px 0;
+	border-radius: 0 0 6px 0;
+}
