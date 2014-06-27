@@ -7,7 +7,7 @@
 		<?php if ( have_posts() ) : while( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part('parts/headers'); ?>
-			<section class="row single">
+			<section class="row single gutter marginalize-ends">
 
 				<div class="column one">
 					<div class="fill-width"><div class="main_header_graphic">
@@ -19,7 +19,7 @@
 				</div><!--/column-->
 
 			</section>
-			<section class="row sidebar">
+			<section class="row side-right gutter marginalize-ends">
 
 				<div class="column one">
 
