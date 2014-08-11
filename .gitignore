@@ -2,13 +2,3 @@
 .DS_Store
 .idea
 *.sublime*
-/*.xml
-# Ignore WSUWP Indie WordPress files
-/wordpress
-/wp-config.php
-/wp-content/themes/spine/
-/wp-content/uploads
-wp-content/themes/spine
-wp-content/plugins/wordpress-importer/
-wp-content/plugins/wsuwp-plugin-custom-css
-wp-content/plugins/wsuwp-sso-authentication
